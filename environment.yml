@@ -1,0 +1,20 @@
+name: pymare-book
+channels:
+  - defaults
+dependencies:
+  - python==3.8
+  - r-metafor
+  - r-tidyverse
+  - r-IRkernel
+  - pip
+  - pip:
+    - jupyter-book
+    - jupyter_contrib_core
+    - jupyterlab_sos
+    - matplotlib
+    - pymare==0.0.4rc2
+    - sos-bash
+    - sos-notebook
+    - sos-pbs
+    - sos-python
+    - sos-r

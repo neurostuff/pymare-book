@@ -31,8 +31,8 @@ jobs:
 
     # Build the book
     - name: Build the book
+      shell: bash
       run: |
-        conda init bash
         conda activate pymare-book
         jupyter-book build .
 

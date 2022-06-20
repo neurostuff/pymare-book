@@ -6,7 +6,6 @@ dependencies:
   - r-IRkernel
   - r-metadat
   - r-metafor
-  - r-tidyverse
   - pip
   - pip:
     - jupyter-book

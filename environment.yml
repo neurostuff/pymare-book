@@ -1,20 +1,16 @@
 name: pymare-book
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python==3.8
+  - r-IRkernel
+  - r-metadat
   - r-metafor
   - r-tidyverse
-  - r-IRkernel
   - pip
   - pip:
     - jupyter-book
     - jupyter_contrib_core
-    - jupyterlab_sos
     - matplotlib
+    - rpy2
     - pymare==0.0.4rc2
-    - sos-bash
-    - sos-notebook
-    - sos-pbs
-    - sos-python
-    - sos-r

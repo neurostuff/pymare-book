@@ -28,12 +28,13 @@ jobs:
     - name: Install dependencies
       run: |
         conda env create -f environment.yml
+        conda info
 
     # Build the book
     - name: Build the book
       shell: bash
       run: |
-        conda activate pymare-book
+        $CONDA/bin/activate pymare-book
         jupyter-book build .
 
     # Push the book's HTML to github-pages

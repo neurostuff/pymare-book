@@ -34,7 +34,7 @@ jobs:
     - name: Build the book
       shell: bash
       run: |
-        $CONDA/bin/activate pymare-book
+        conda activate pymare-book
         jupyter-book build .
 
     # Push the book's HTML to github-pages
